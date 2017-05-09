@@ -4,8 +4,8 @@ var My = require('../sqrt.js');
 
 describe("sqrt", function() {
 
-  it("4的平方根应该等于2", function() {
-    expect(My.sqrt(4)).to.equal(2);
+  it("16的平方根应该等于4", function() {
+    expect(My.sqrt(16)).to.equal(4);
   });
 
   it("参数为负值时应该报错", function() {
